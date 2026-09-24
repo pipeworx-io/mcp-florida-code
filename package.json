@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-florida-code",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Florida Statutes — state statutes by citation.",
   "type": "module",
   "main": "src/index.ts",
@@ -24,5 +24,9 @@
   "devDependencies": {
     "typescript": "^5.9.3",
     "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-0ef958f43007ce22486c1b973c973f5edf4fc15d32feeeac05bea54119f8dc6f",
+    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
   }
 }
