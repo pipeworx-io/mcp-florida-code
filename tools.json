@@ -1,0 +1,18 @@
+[
+  {
+    "name": "fl_statute",
+    "description": "Get the FULL TEXT of a section of the Florida Statutes — Florida state law — by citation. \"Florida Statute 784.011\" is section 784.011 (assault). Returns the statutory text, its catchline and its amendment history. Keyless. Use for \"what does Florida Statute 316.193 say\", \"text of Fla. Stat. 768.28\", or to check a Florida statute a case relies on.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "section": {
+          "type": "string",
+          "description": "Section as cited, e.g. \"784.011\" or \"316.193\". The chapter is the part before the dot."
+        }
+      },
+      "required": [
+        "section"
+      ]
+    }
+  }
+]
